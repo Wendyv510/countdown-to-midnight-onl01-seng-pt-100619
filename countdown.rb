@@ -5,7 +5,7 @@ def countdown
   puts "#{counter} SECONDS!"
   counter -=1 
   counter ==0 
-  puts "HAPPY NEW YEAR!"
+  puts_and_prints "HAPPY NEW YEAR!"
 end
 
 countdown
