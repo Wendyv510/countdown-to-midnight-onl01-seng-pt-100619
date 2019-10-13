@@ -8,4 +8,7 @@ def countdown
   puts_and_prints "HAPPY NEW YEAR!"
 end
 
-countdown
+def countdown_with_sleep
+  while counter >0 
+  sleep counter (1 second)
+end 
